@@ -1,0 +1,14 @@
+@import url('../styles/fonts/roboto/roboto.css');
+@import url('../blocks/header/header.css');
+html {
+    background: url("../images/woodcut.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.page {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #FFFFFF;
+}
