@@ -1,4 +1,4 @@
-#Thesis Code Challenge
+# Thesis Code Challenge
 
 ## Design changes
 * I removed hamburger menu from desktop view, as it usually used to hide menu items on tablet or mobile views.
