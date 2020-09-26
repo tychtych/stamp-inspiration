@@ -7,9 +7,26 @@
     box-sizing: border-box;
     padding: 5px 6px 13px;
     background: none;
+    color: #FFFFFF;
+}
+
+.intro__input:focus {
+    outline: none;
 }
 
 .intro__input::placeholder {
     color: #FFFFFF;
     opacity: 0.8;
+}
+
+@media screen and (max-width: 800px) {
+    .intro__input{
+        min-height: 58px;
+    }
+}
+
+@media screen and (max-width: 577px) {
+    .intro__input {
+        min-height: 32px;
+    }
 }

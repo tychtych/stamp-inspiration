@@ -3,3 +3,9 @@
     text-decoration: none;
     display: flex;
 }
+
+@media screen and (max-width: 577px) {
+    .footer__links {
+        padding-left: 3px;
+    }
+}

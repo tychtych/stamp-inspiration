@@ -6,3 +6,31 @@
     padding: 0 20px;
     color: #FFFF;
 }
+
+@media screen and (max-width: 1200px) {
+    .footer__item{
+        font-size: 18px;
+        line-height: 19px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .footer__item {
+        font-size: 14px;
+        line-height: 12px;
+        padding: 0 17px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .footer__item{
+        padding: 0px 11px;
+    }
+}
+
+@media screen and (max-width: 577px) {
+    .footer__item {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}

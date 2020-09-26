@@ -3,3 +3,9 @@
     text-decoration: none;
     display: flex;
 }
+
+@media screen and (max-width: 577px) {
+    .header__menu-list {
+        padding: 0;
+    }
+}

@@ -13,3 +13,9 @@
     cursor:pointer;
     color: #FFFFFF;
 }
+
+.intro__button:focus {
+    background: #99cff1;
+    transition: all ease 1s;
+    outline: none;
+}

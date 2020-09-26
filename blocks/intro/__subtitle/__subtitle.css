@@ -6,4 +6,26 @@
     font-weight: normal;
     margin-top: 33px;
     margin-bottom: 0px;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1200px) {
+    .intro__subtitle {
+        max-width: 344px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .intro__subtitle {
+        margin-top: 14px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .intro__subtitle {
+        max-width: 300px;
+        text-align: center;
+    }
 }
