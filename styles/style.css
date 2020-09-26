@@ -2,19 +2,6 @@
 @import url('../blocks/intro/intro.css');
 @import url('../blocks/footer/footer.css');
 
-
-@media screen and (max-width: 800px) {
-    html {
-        background: url("../images/woodcut-medium.jpg") no-repeat;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    html {
-        background: url("../images/woodcut-small.jpg") no-repeat;
-    }
-}
-
 html {
     background: url("../images/woodcut-large.jpg") no-repeat;
     -webkit-background-size: cover;
@@ -26,4 +13,25 @@ html {
 .page {
     font-family: 'Roboto', Arial, sans-serif;
     color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 800px) {
+    html {
+        background: url("../images/woodcut-medium.jpg") no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    html {
+        background: url("../images/woodcut-small.jpg") no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
 }
