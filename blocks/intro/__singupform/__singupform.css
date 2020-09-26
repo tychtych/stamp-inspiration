@@ -1,0 +1,10 @@
+.intro__signupform {
+    width: 460px;
+    min-height: 242px;
+    border-radius: 4px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 1px 8px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}

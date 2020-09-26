@@ -1,3 +1,15 @@
+@import url('__title/__title.css');
+@import url('__subtitle/__subtitle.css');
+@import url('__form/__form.css');
+@import url('__form-title/__form-title.css');
+@import url('__singupform/__singupform.css');
+@import url('__input-container/__input-container.css');
+@import url('__input/__input.css');
+@import url('../button/button.css');
+@import url('__terms/__terms.css');
+@import url('__terms-link/__terms-link.css');
+@import url('__wrap/__wrap.css');
+
 .intro {
     max-width: 1184px;
     margin: 0 auto;

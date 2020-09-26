@@ -1,7 +1,9 @@
-@import url('../styles/fonts/roboto/roboto.css');
 @import url('../blocks/header/header.css');
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/footer/footer.css');
+
 html {
-    background: url("../images/woodcut.png");
+    background: url("../images/woodcut.png") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

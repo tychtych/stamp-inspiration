@@ -1,0 +1,15 @@
+.button {
+    max-width: 460px;
+    display: block;
+}
+
+.intro__button {
+    width: 100%;
+    background: #2C99ED;
+    border: none;
+    border-radius: 0px 0px 4px 4px;
+    padding:16px 31px;
+    text-decoration:none;
+    cursor:pointer;
+    color: #FFFFFF;
+}
