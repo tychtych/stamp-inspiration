@@ -1,0 +1,24 @@
+.header__hamburger {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    display: none;
+}
+
+.header__hamburger:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 698px) {
+    .header__hamburger {
+        display: flex;
+        padding-right: 18px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .header__hamburger {
+        padding-top: 5px
+    }
+}

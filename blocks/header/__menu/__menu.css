@@ -2,4 +2,15 @@
     list-style: none;
     text-decoration: none;
     display: flex;
+
 }
+
+@media screen and (max-width: 698px) {
+    .header__menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        height: 100px;
+    }
+}
+

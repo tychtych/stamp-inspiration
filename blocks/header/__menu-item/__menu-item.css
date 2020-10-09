@@ -14,11 +14,12 @@
     }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 698px) {
     .header__menu-item{
         font-size: 14px;
         line-height: 12px;
         padding: 0px 11px;
+        margin-bottom: 8px;
     }
 }
 

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stamp | Simple Way to Organize Your Inspirations </title>
+
     <!--preload heavy resources before downloading css-->
     <link rel="preload" href="images/woodcut-large.jpg" as="image" media="(min-width: 801)">
     <link rel="preload" href="images/woodcut-medium.jpg" as="image" media="(max-width: 800)">
@@ -19,6 +20,9 @@
     <header class="header">
         <img src="./images/logo.svg" alt="Stamp – Home" class="header__logo">
         <nav class="header__menu">
+            <button class="header__hamburger" id="hamburger">
+                <img src="./images/hamburgermenu.svg" alt="dropdown menu" class="hamburger">
+            </button>
             <ul class="header__menu-list">
                 <li class="header__menu-item"><a href="#" class="header__menu-link"> About </a></li>
                 <li class="header__menu-item"><a href="#" class="header__menu-link"> Integrations</a></li>
@@ -71,5 +75,6 @@
 
     </main>
 </div>
+<script src="./index.js"></script>
 </body>
 </html>

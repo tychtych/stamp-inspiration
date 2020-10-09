@@ -1,6 +1,9 @@
+@import url('./__menu/__menu.css');
 @import url('./__menu-list/__menu-list.css');
 @import url('./__menu-item/__menu-item.css');
 @import url('./__menu-link/__menu-link.css') ;
+@import url('./hamburger/hamburger.css');
+@import url('./__hamburger/__hamburger.css');
 
 .header {
     display: flex;
@@ -8,12 +11,17 @@
     align-items: center;
     padding: 20px 48px;
     margin: 0 auto 100px auto;
+}
 
+@media screen and (max-width: 698px) {
+    .header {
+        align-items: baseline;
+    }
 }
 
 @media screen and (max-width: 577px) {
     .header {
-        flex-direction: column;
+
         margin-bottom: 50px;
     }
 }
